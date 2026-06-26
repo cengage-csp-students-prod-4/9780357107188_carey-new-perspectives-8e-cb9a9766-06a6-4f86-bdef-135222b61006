@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Enter your name (First + Last) into the `Author:` field of code1-1.html file.
+Reason: Unable to find 'Author: {YOUR NAME}' in the program.
+Error : str - AssertionError
+Timestamp: 2026-06-26 14:08:11.820043
+
+Status: FAILED!
+Check: 2
+Test: "Date" added to comment section of the file code1-1.html in the format MM/DD/YYYY
+Reason: Unable to find 'Date: {DATE}' in the program.
+Error : str - AssertionError
+Timestamp: 2026-06-26 14:08:11.820658
