@@ -26,3 +26,9 @@ h1 {
    line-height: 1em;
    margin-bottom: 0px;
 }
+
+h2 {
+   margin-top: 0;
+   font-style: italic;
+   font-weight: normal;
+}
