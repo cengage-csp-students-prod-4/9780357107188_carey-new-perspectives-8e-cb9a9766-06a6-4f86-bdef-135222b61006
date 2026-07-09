@@ -16,3 +16,10 @@ header > h1 {
    font-family: Impact, sans-serif;
    font-size: 3em;
 }
+
+nav > h1 {
+   font-size: 1.2em;
+   color: white;
+   background-color: black;
+   text-align: center;
+}
