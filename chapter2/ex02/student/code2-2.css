@@ -5,9 +5,14 @@
    Tutorial 2
    Coding Activity 2
 
-   Author: 
-   Date:   
+   Author: Artasia Bates
+   Date:   07/08/2026
    
    Filename: code2-2.css
 
 */
+header > h1 {
+   text-align: center;
+   font-family: Impact, sans serif;
+   font-size: 3em;
+}
