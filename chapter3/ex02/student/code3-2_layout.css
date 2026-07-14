@@ -12,3 +12,16 @@
 
 */
 
+header, footer, aside, article, a {
+   padding: 10px;
+   outline: 3px dashed gray;
+}
+
+body {
+   width: 90%;
+   min-width: 640px;
+   max-width: 1024px;
+   margin: 30px auto;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+}
