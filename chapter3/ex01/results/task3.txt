@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Create a drop cap insert a style rule for the selector `p:first-of-type`.
 Reason: None
-Timestamp: 2026-07-14 23:11:33.457601
+Timestamp: 2026-07-14 23:13:47.643318
 
 Status: PASSED!
 Check: 2
 Test: Set the font size to 4em and the line height to 0.8em for the drop cap.
 Reason: None
-Timestamp: 2026-07-14 23:11:33.467860
+Timestamp: 2026-07-14 23:13:47.653831
 
 Status: PASSED!
 Check: 3
 Test: Set the size of the right margin and padding space to 0.1em and the bottom padding to 0.2em for the drop cap.
 Reason: None
-Timestamp: 2026-07-14 23:11:33.476916
+Timestamp: 2026-07-14 23:13:47.663475
