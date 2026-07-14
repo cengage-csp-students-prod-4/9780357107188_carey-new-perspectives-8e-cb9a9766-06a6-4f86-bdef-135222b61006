@@ -25,3 +25,9 @@ p:first-of-type::first-line {
    font-variant: small-caps;
    font-size: 1.4em;
 }
+
+img {
+   height: 3.3em;
+   clear: right;
+   float: right;
+}
