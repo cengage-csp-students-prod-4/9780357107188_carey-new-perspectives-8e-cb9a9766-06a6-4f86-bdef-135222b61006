@@ -27,3 +27,21 @@ body {
    grid-template-rows: 50px 30px 1fr 1fr 100px;
    gap: 15px;
 }
+
+header {
+   grid-column: 1 / -1;
+}
+
+article#intro {
+   grid-row: span 2;
+   grid-column: span 2;
+}
+
+article#main {
+   grid-row: span 2;
+   grid-column: span 3;
+}
+
+footer {
+   grid-column: span 2;
+}
