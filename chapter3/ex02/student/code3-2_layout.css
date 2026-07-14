@@ -24,4 +24,6 @@ body {
    margin: 30px auto;
    display: grid;
    grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: 50px 30px 1fr 1fr 100px;
+   gap: 15px;
 }
