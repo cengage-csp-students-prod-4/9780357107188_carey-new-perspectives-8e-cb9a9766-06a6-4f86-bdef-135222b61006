@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Create the style rules for the `h1` element.
+Reason: Assertion failed: 'rgba(0, 0, 0, 1)' != 'rgba(255, 255, 255, 1)'
+- rgba(0, 0, 0, 1)
++ rgba(255, 255, 255, 1)
+ : Color is not set as expected. Expected rgba(255, 255, 255, 1), but found rgba(0, 0, 0, 1)
+Error : AssertionError - 'rgba(0, 0, 0, 1)' != 'rgba(255, 255, 255, 1)'
+- rgba(0, 0, 0, 1)
++ rgba(255, 255, 255, 1)
+ : Color is not set as expected. Expected rgba(255, 255, 255, 1), but found rgba(0, 0, 0, 1)
+Timestamp: 2026-07-21 03:04:43.859626
