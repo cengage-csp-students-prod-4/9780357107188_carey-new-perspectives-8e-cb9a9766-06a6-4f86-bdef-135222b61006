@@ -1,0 +1,19 @@
+
+Status: PASSED!
+Check: 1
+Test: Create a style rule for the `article` element that adds the black inset box shadow.
+Reason: None
+Timestamp: 2026-07-21 02:08:06.058092
+
+Status: PASSED!
+Check: 2
+Test: Create a style rule for the `article` element that sets the radius of the border corners to 150 pixels.
+Reason: None
+Timestamp: 2026-07-21 02:08:06.070902
+
+Status: FAILED!
+Check: 3
+Test: Add a background containing the image file landscape.png placed with no tiling at the bottom right corner of the element with a size of 100%.
+Reason: Assertion failed: False is not true : Background image is not set as expected. Expected url("landscape.png"), but found none
+Error : AssertionError - False is not true : Background image is not set as expected. Expected url("landscape.png"), but found none
+Timestamp: 2026-07-21 02:08:06.100382
