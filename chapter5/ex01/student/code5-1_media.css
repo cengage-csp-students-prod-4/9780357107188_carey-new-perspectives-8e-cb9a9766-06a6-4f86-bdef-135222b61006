@@ -10,4 +10,12 @@
    Filename: code5-1_media.css
 
 */
+@media screen and (max-width: 500px) {
+   article img {
+      display: none;
+   }
+}
 
+ul.submenu {
+   text-align: center;
+}
