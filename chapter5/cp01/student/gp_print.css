@@ -4,8 +4,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+   Author:  Artqsia Bates 
+   Date:    07/25/2026 
    
    Filename: gp_print.css
 
@@ -17,3 +17,25 @@
 /* Hidden Objects */
 
 /* Comic Book Sheet Styles */
+
+section#sheet {
+   width: 6in;
+   margin: 0 auto;
+   page-break-after: always;
+}
+
+img.size1 {
+   width: 5in;
+}
+
+img.size2 {
+   width: 3in;
+}
+
+img.size3 {
+   width: 2in;
+}
+
+img.size4 {
+   width: 1.5in;
+}
