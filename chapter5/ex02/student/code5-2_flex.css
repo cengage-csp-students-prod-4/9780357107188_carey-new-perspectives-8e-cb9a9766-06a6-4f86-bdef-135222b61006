@@ -16,4 +16,10 @@ section {
    flex-flow: row wrap-reverse;
 }
 
-
+.card div {
+   flex: 1 1 200px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
