@@ -26,3 +26,10 @@ nav {
 nav li, ol li {
    line-height: 0.3in;
 }
+
+a::after {
+   content: "[" attr(href) "] ";
+   display: inline-block;
+   margin-left: 20px;
+   word-wrap: break-word;
+}
