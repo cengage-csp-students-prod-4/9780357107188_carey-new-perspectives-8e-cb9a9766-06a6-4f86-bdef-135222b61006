@@ -10,3 +10,19 @@
    Filename: code5-3_print.css
 
 */
+@page {
+   size: 8.5in 11in;
+   margin: 1in;
+}
+
+a {
+   text-decoration: none;
+}
+
+nav {
+   page-break-inside: avoid;
+}
+
+nav li, ol li {
+   line-height: 0.3in;
+}
