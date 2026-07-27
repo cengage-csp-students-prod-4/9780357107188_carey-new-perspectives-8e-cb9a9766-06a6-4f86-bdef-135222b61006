@@ -3,53 +3,46 @@ Status: PASSED!
 Check: 1
 Test: Below the `body header`, create a table using the `table` element.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.441054
+Timestamp: 2026-07-27 15:50:37.696882
 
 Status: PASSED!
 Check: 2
 Test: Insert a `caption` containing the text February 5, 2021.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.452552
+Timestamp: 2026-07-27 15:50:37.760783
 
 Status: PASSED!
 Check: 3
 Test: Insert a column group containing a column with the id `firstCol` and a column with the id `hourCols` that spans 9 columns.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.481733
+Timestamp: 2026-07-27 15:50:37.806336
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Insert a table head group that contains a single row with `th` elements containing the text Conference Room and the times 8:00am through 4:00pm in one-hour increments.
-Reason: Assertion failed: '8:00am' != 'Conference Room'
-- 8:00am
-+ Conference Room
-
-Error : AssertionError - '8:00am' != 'Conference Room'
-- 8:00am
-+ Conference Room
-
-Timestamp: 2026-07-27 15:48:35.497959
+Reason: None
+Timestamp: 2026-07-27 15:50:37.889453
 
 Status: PASSED!
 Check: 5
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.529170
+Timestamp: 2026-07-27 15:50:37.942064
 
 Status: PASSED!
 Check: 6
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.564443
+Timestamp: 2026-07-27 15:50:38.010321
 
 Status: PASSED!
 Check: 7
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.593528
+Timestamp: 2026-07-27 15:50:38.056938
 
 Status: PASSED!
 Check: 8
 Test: Insert a table body group that contains the four rows shown in Figure 6–48 for each of the four conference rooms.
 Reason: None
-Timestamp: 2026-07-27 15:48:35.671592
+Timestamp: 2026-07-27 15:50:38.096899
