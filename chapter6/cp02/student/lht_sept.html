@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <link rel="stylesheet" href="lht_tables.css">
+   <link rel="stylesheet" href="lht_columns.css">
    <!--
       New Perspectives on HTML5 and CSS3, 8th Edition
       Tutorial 6
       Case Problem 2
 
       LHT September Schedule
-      Author: 
-      Date:   
+      Author: Artasia Bates
+      Date: 07/27/2026  
 
       Filename:   lht_sept.html
 
@@ -69,8 +71,79 @@
          your table in advance.
       </p>
    </article>
-            
-      
+    <table id="calendar">
+      <caption>September 2021 Calendar</caption>
+
+      <colgroup>
+      <col class="weekdays" span="5">
+      <col class="weekends" span="2">
+   </colgroup>
+
+   <thead>
+      <tr>
+         <th>Sun</th>
+         <th>Mon</th>
+         <th>Tue</th>
+         <th>Wed</th>
+         <th>Thu</th>
+         <th>Fri</th>
+         <th>Sat</th>
+      </tr>
+   </thead>
+    </table>
+    <tbody>
+
+      <tr>
+
+         <td data-date="Sun, August 29, 2021">
+            <h1>29</h1>
+            <dl>
+               <dt>Carson Quartet</dt>
+               <dd>1 pm</dd>
+               <dd>$12</dd>
+            </dl>
+         </td>
+
+         <td data-date="Mon, August 30, 2021">
+            <h1>30</h1>
+            <dl>
+               <dt>Harlem Choir</dt>
+               <dd>8 pm</dd>
+               <dd>$19/$24/$32</dd>
+            </dl>
+         </td>
+
+         <td data-date="Tue, August 31, 2021">
+            <h1>31</h1>
+         </td>
+
+         <td data-date="Wed,September 1, 2021">
+            <h1>1</h1>
+         </td>
+
+         <td data-date="Thu,September 2, 2021">
+            <h1>2</h1>
+         </td>
+
+         <td data-date="Fri, September 3, 2021">
+            <h1>3</h1>
+            <dl>
+               <dt>Taiwan Acrobats</dt>
+               <dd>8 pm</dd>
+               <dd>$24/$32/$48</dd>
+            </dl>
+         </td>
+
+         <td data-date="Sat, September 4, 2021">
+            <h1>4</h1>
+            <dl>
+               <dt>Joey Gallowy</dt>
+               <dd>8 pm</dd>
+               <dd>$24/$32/$48</dd>
+               </dl>
+               </td>
+               </tr>
+               </tbody>
    <footer>
       <nav>
          <ul>
