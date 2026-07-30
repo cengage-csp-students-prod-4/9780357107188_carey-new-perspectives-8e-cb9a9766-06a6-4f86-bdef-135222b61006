@@ -5,48 +5,48 @@ Test: Within the `cardmonth` selection list add options for each month.
 Reason: NoSuchElementException occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select[name="cardmonth"]"}
   (Session info: chrome=150.0.7871.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55ad5a7c544a <unknown>
-#1 0x55ad5a19d8c9 <unknown>
-#2 0x55ad5a1f2f32 <unknown>
-#3 0x55ad5a1f3181 <unknown>
-#4 0x55ad5a23e374 <unknown>
-#5 0x55ad5a23b55d <unknown>
-#6 0x55ad5a1e63ff <unknown>
-#7 0x55ad5a1e7261 <unknown>
-#8 0x55ad5a78acc7 <unknown>
-#9 0x55ad5a7894a8 <unknown>
-#10 0x55ad5a774196 <unknown>
-#11 0x55ad5a78a06a <unknown>
-#12 0x55ad5a75c020 <unknown>
-#13 0x55ad5a7b0b98 <unknown>
-#14 0x55ad5a7b0d35 <unknown>
-#15 0x55ad5a7c3ffe <unknown>
-#16 0x7f399449caa4 <unknown>
-#17 0x7f3994529c6c <unknown>
+#0 0x55ab2c23744a <unknown>
+#1 0x55ab2bc0f8c9 <unknown>
+#2 0x55ab2bc64f32 <unknown>
+#3 0x55ab2bc65181 <unknown>
+#4 0x55ab2bcb0374 <unknown>
+#5 0x55ab2bcad55d <unknown>
+#6 0x55ab2bc583ff <unknown>
+#7 0x55ab2bc59261 <unknown>
+#8 0x55ab2c1fccc7 <unknown>
+#9 0x55ab2c1fb4a8 <unknown>
+#10 0x55ab2c1e6196 <unknown>
+#11 0x55ab2c1fc06a <unknown>
+#12 0x55ab2c1ce020 <unknown>
+#13 0x55ab2c222b98 <unknown>
+#14 0x55ab2c222d35 <unknown>
+#15 0x55ab2c235ffe <unknown>
+#16 0x7f8b1789caa4 <unknown>
+#17 0x7f8b17929c6c <unknown>
 
 Error : NoSuchElementException - Message: no such element: Unable to locate element: {"method":"css selector","selector":"select[name="cardmonth"]"}
   (Session info: chrome=150.0.7871.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55ad5a7c544a <unknown>
-#1 0x55ad5a19d8c9 <unknown>
-#2 0x55ad5a1f2f32 <unknown>
-#3 0x55ad5a1f3181 <unknown>
-#4 0x55ad5a23e374 <unknown>
-#5 0x55ad5a23b55d <unknown>
-#6 0x55ad5a1e63ff <unknown>
-#7 0x55ad5a1e7261 <unknown>
-#8 0x55ad5a78acc7 <unknown>
-#9 0x55ad5a7894a8 <unknown>
-#10 0x55ad5a774196 <unknown>
-#11 0x55ad5a78a06a <unknown>
-#12 0x55ad5a75c020 <unknown>
-#13 0x55ad5a7b0b98 <unknown>
-#14 0x55ad5a7b0d35 <unknown>
-#15 0x55ad5a7c3ffe <unknown>
-#16 0x7f399449caa4 <unknown>
-#17 0x7f3994529c6c <unknown>
+#0 0x55ab2c23744a <unknown>
+#1 0x55ab2bc0f8c9 <unknown>
+#2 0x55ab2bc64f32 <unknown>
+#3 0x55ab2bc65181 <unknown>
+#4 0x55ab2bcb0374 <unknown>
+#5 0x55ab2bcad55d <unknown>
+#6 0x55ab2bc583ff <unknown>
+#7 0x55ab2bc59261 <unknown>
+#8 0x55ab2c1fccc7 <unknown>
+#9 0x55ab2c1fb4a8 <unknown>
+#10 0x55ab2c1e6196 <unknown>
+#11 0x55ab2c1fc06a <unknown>
+#12 0x55ab2c1ce020 <unknown>
+#13 0x55ab2c222b98 <unknown>
+#14 0x55ab2c222d35 <unknown>
+#15 0x55ab2c235ffe <unknown>
+#16 0x7f8b1789caa4 <unknown>
+#17 0x7f8b17929c6c <unknown>
 
-Timestamp: 2026-07-30 04:34:38.199753
+Timestamp: 2026-07-30 04:37:39.125636
 
 Status: FAILED!
 Check: 2
@@ -54,45 +54,45 @@ Test: Make the selection list required.
 Reason: NoSuchElementException occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select[name="cardmonth"]"}
   (Session info: chrome=150.0.7871.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55ad5a7c544a <unknown>
-#1 0x55ad5a19d8c9 <unknown>
-#2 0x55ad5a1f2f32 <unknown>
-#3 0x55ad5a1f3181 <unknown>
-#4 0x55ad5a23e374 <unknown>
-#5 0x55ad5a23b55d <unknown>
-#6 0x55ad5a1e63ff <unknown>
-#7 0x55ad5a1e7261 <unknown>
-#8 0x55ad5a78acc7 <unknown>
-#9 0x55ad5a7894a8 <unknown>
-#10 0x55ad5a774196 <unknown>
-#11 0x55ad5a78a06a <unknown>
-#12 0x55ad5a75c020 <unknown>
-#13 0x55ad5a7b0b98 <unknown>
-#14 0x55ad5a7b0d35 <unknown>
-#15 0x55ad5a7c3ffe <unknown>
-#16 0x7f399449caa4 <unknown>
-#17 0x7f3994529c6c <unknown>
+#0 0x55ab2c23744a <unknown>
+#1 0x55ab2bc0f8c9 <unknown>
+#2 0x55ab2bc64f32 <unknown>
+#3 0x55ab2bc65181 <unknown>
+#4 0x55ab2bcb0374 <unknown>
+#5 0x55ab2bcad55d <unknown>
+#6 0x55ab2bc583ff <unknown>
+#7 0x55ab2bc59261 <unknown>
+#8 0x55ab2c1fccc7 <unknown>
+#9 0x55ab2c1fb4a8 <unknown>
+#10 0x55ab2c1e6196 <unknown>
+#11 0x55ab2c1fc06a <unknown>
+#12 0x55ab2c1ce020 <unknown>
+#13 0x55ab2c222b98 <unknown>
+#14 0x55ab2c222d35 <unknown>
+#15 0x55ab2c235ffe <unknown>
+#16 0x7f8b1789caa4 <unknown>
+#17 0x7f8b17929c6c <unknown>
 
 Error : NoSuchElementException - Message: no such element: Unable to locate element: {"method":"css selector","selector":"select[name="cardmonth"]"}
   (Session info: chrome=150.0.7871.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-#0 0x55ad5a7c544a <unknown>
-#1 0x55ad5a19d8c9 <unknown>
-#2 0x55ad5a1f2f32 <unknown>
-#3 0x55ad5a1f3181 <unknown>
-#4 0x55ad5a23e374 <unknown>
-#5 0x55ad5a23b55d <unknown>
-#6 0x55ad5a1e63ff <unknown>
-#7 0x55ad5a1e7261 <unknown>
-#8 0x55ad5a78acc7 <unknown>
-#9 0x55ad5a7894a8 <unknown>
-#10 0x55ad5a774196 <unknown>
-#11 0x55ad5a78a06a <unknown>
-#12 0x55ad5a75c020 <unknown>
-#13 0x55ad5a7b0b98 <unknown>
-#14 0x55ad5a7b0d35 <unknown>
-#15 0x55ad5a7c3ffe <unknown>
-#16 0x7f399449caa4 <unknown>
-#17 0x7f3994529c6c <unknown>
+#0 0x55ab2c23744a <unknown>
+#1 0x55ab2bc0f8c9 <unknown>
+#2 0x55ab2bc64f32 <unknown>
+#3 0x55ab2bc65181 <unknown>
+#4 0x55ab2bcb0374 <unknown>
+#5 0x55ab2bcad55d <unknown>
+#6 0x55ab2bc583ff <unknown>
+#7 0x55ab2bc59261 <unknown>
+#8 0x55ab2c1fccc7 <unknown>
+#9 0x55ab2c1fb4a8 <unknown>
+#10 0x55ab2c1e6196 <unknown>
+#11 0x55ab2c1fc06a <unknown>
+#12 0x55ab2c1ce020 <unknown>
+#13 0x55ab2c222b98 <unknown>
+#14 0x55ab2c222d35 <unknown>
+#15 0x55ab2c235ffe <unknown>
+#16 0x7f8b1789caa4 <unknown>
+#17 0x7f8b17929c6c <unknown>
 
-Timestamp: 2026-07-30 04:34:39.230169
+Timestamp: 2026-07-30 04:37:40.152283
