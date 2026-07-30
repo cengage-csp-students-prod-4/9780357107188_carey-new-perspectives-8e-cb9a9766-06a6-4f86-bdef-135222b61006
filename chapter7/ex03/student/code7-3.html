@@ -33,6 +33,7 @@
             
             <label for="cname">Name</label>
             <input id="cname" name="cardname" type="text" required>
+            
 
             <label for="ccard">Credit Card Type</label>
          <select id="ccard" name="creditcard" required>
@@ -42,6 +43,11 @@
             <option value="master">MasterCard</option>
             <option value="visa">Visa</option>
          </select>
+
+         <label for="cnum">Card Number</label>
+         <input type="text" name="cardnumber" id="cnum" required pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|[25][1-7][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
+
+
          
          <label for="cname">Name</label>
          <input id="cname" name="cardname" type="text" required>
