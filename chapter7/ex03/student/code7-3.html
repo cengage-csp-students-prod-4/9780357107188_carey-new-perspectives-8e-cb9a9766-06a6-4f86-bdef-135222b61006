@@ -28,6 +28,13 @@
    <h1>Payment Information</h1>
    <form action="process-card.php" method="post">
       <fieldset>
+         <fieldset id="paymentInfo">
+            <legend>Paymet Information</legend>
+            
+            <label for="cname">Name</label>
+            <input id="cname" name="cardname" type="text" required>
+
+            <label for="ccard">Credit Card Type</label>
          <select id="ccard" name="creditcard" required>
             <option value="Credit Card Type"></option>
             <option value="amex">American Express</option>
