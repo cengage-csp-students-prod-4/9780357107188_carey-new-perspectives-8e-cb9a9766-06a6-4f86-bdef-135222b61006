@@ -8,10 +8,10 @@ Reason: Assertion failed: '' != 'Credit Card Type'
 Error : AssertionError - '' != 'Credit Card Type'
 + Credit Card Type
  : Expected 'Credit Card Type' as the first option, found: 
-Timestamp: 2026-07-30 03:54:32.908039
+Timestamp: 2026-07-30 04:02:02.433052
 
 Status: PASSED!
 Check: 2
 Test: Make the selection list and `cardname` field required.
 Reason: None
-Timestamp: 2026-07-30 03:54:32.953921
+Timestamp: 2026-07-30 04:02:02.466884
