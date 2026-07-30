@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Within the `cardmonth` selection list add options for each month.
+Reason: Assertion failed: 0 != 13 : The number of options is incorrect.
+Error : AssertionError - 0 != 13 : The number of options is incorrect.
+Timestamp: 2026-07-30 04:15:04.821491
+
+Status: FAILED!
+Check: 2
+Test: Make the selection list required.
+Reason: Assertion failed: None is not true : The selection list should be required.
+Error : AssertionError - None is not true : The selection list should be required.
+Timestamp: 2026-07-30 04:15:04.832362
