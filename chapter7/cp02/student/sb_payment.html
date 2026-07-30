@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="sb_forms.css">
+   <link rel="stylesheet" href="sb_validate.css">
+   <script src="sb_script.js" defer></script>
    <!--
       New Perspectives on HTML5 and CSS3, 8th Edition
       Tutorial 7
       Case Problem 2
 
       Spice Bowl Payment Form
-      Author: 
-      Date:   
+      Author: Artasia Bates
+      Date:  07/29/2026 
 
       Filename:   sb_payment.html
 
@@ -25,6 +28,12 @@
    <header>
       <img src="sb_logo.png" alt="The Spice Bowl" />
 
+      <form id="login" action="http;//www.example.com/sb/login" method="post">
+         <input type="text" id="userBox" name="username" placeholder="username">
+         <input type="password" id="pwdBox" name="password" placeholder="password">
+      </form>
+
+
       <nav> <a id="navicon" href="#"><img src="sb_navicon.png" alt="" /></a>
          <ul>
             <li><a href="#">Spices</a></li>
@@ -38,6 +47,99 @@
    
    <section>
       <h1>Payment Form</h1>
+      <form id="payment" action="http://example.com" method="post">
+         <fieldset id="billing">
+            <legend>Billing Information (required)</legend>
+
+            <label for="firstBox">First Name</label>
+            <input type="text" id="firstBox" name="fName" required>
+
+            <label for="lastBox">Last Name</label>
+            <input type="text" id="lastBox" name="lName" required>
+
+            <label for="streetBox">Street Address</label>
+            <input type="text" id="streetBox" name="street" required>
+
+            <label for="streetBox2">Street Address (2)</label>
+            <input type="text" id="streetBox2" name="street2">
+
+            <label for="cityBox">City</label>
+            <input type="text" id="cityBox" name="city" required>
+
+            <label for="stateBox">State</label>
+            <input type="text" id="stateBox" name="state" required>
+
+            <label for="zipBox">ZIP/Postal Code</label>
+            <input type="text" id="zipBox" name="zip" pattern="^\d{5}(-\d{4})?$">
+            
+            <label for="countryBox">Country</label>
+            <input type="text" id="countryBox" name="country" value="United States" required>
+
+            <label for="phoneBox">Phone</label>
+            <input type="tel" id="phoneBox" name="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required>
+         </fieldset>
+         <datalist id="stateList">
+            <option value="AL">
+            <option value="AK">
+            <option value="AZ">
+         </datalist>
+
+         <fieldset id="creditCard">
+            <legend>Credit Card (required)</legend>
+
+         <fieldset>
+            <label class="cardLabel">
+               <input type="radio" name="cCard" value="amex"> American Express
+            </label>
+            <label class="cardLabel">
+               <input type="radio" name="cCard" value="discover"> Discover
+            </label>
+            <label class="cardLabel">
+               <input type="radio" name="cCard" value="master"> MasterCard
+            </label>
+            <label class="cardLabel">
+               <input type="radio" name="cCard" value="Visa"> Visa
+            </label>
+
+            <label for="cardBox">Credit Card Number</label>
+            <input type="text" id="cardBox" name="cardNumber" required pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$">
+
+            <label for="monthList">Expiration Date</label>
+
+            <select id="monthList" name="cardMonth" required>
+               <option value="">--Month--</option>
+               <option value="01">January (01)</option>
+               <option value="02">February (02)</option>
+               <option value="03">March (03)</option>
+               <option value="04">April (04)</option>
+               <option value="05">May (05)</option>
+               <option value="06">June (06)</option>
+               <option value="07">July (07)</option>
+               <option value="08">August (08)</option>
+               <option value="09">September (09)</option>
+               <option value="10">October (10)</option>
+               <option value="11">November (11)</option>
+               <option value="12">December (12)</option>
+            </select>
+
+            <select id="yearList" name="cardYear" required>
+               <option value="">--Year--</option>
+               <option value="2020">2020</option>
+               <option value="2021">2021</option>
+               <option value="2022">2022</option>
+               <option value="2023">2023</option>
+               <option value="2024">2024</option>
+            </select>
+
+            <label for="cscBox">CSC</label>
+            <input type="text" id="cscBox" name="csc" required pattern="^\d{3}$" maxlength="3" placeholder="nnn">
+         </fieldset>
+
+         <button type="submit">
+            <img src="sb_button.png" alt="next">
+         </button>
+         </fieldset>
+      </form>
       
       <aside>
          <h1>Menu Ideas</h1>
