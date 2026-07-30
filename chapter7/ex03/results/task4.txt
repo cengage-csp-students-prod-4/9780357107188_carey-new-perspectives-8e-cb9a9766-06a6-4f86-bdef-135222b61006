@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Make the `cardnumber` field required.
+Reason: Assertion failed: None is not true : The `cardnumber` field should be required.
+Error : AssertionError - None is not true : The `cardnumber` field should be required.
+Timestamp: 2026-07-30 03:54:37.736267
+
+Status: FAILED!
+Check: 2
+Test: Add the regular expression pattern to help ensure that a valid card number is used.
+Reason: Assertion failed: False is not true : Unable to find the regular expression pattern in the `cardnumber` field.
+Error : AssertionError - False is not true : Unable to find the regular expression pattern in the `cardnumber` field.
+Timestamp: 2026-07-30 03:54:37.751833
