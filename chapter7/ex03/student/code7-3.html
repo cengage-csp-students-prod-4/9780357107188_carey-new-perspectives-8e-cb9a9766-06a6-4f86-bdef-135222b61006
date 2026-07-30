@@ -77,11 +77,10 @@
             <option value="2024">2024</option>
          </select>
          
-         <select name="cardyear" id="year">        
-         </select>
+         </fieldset>
          
          <label for="csc">CSC</label>
-         <input type="text" id="csc" name="cardcsc" />
+         <input type="text" name="cardcsc" id="csc" name="cardcsc" required maxlength="3" pattern="^\d{3}$">
          <input type="submit" value="Submit Payment" />      
       </fieldset>
    </form>
