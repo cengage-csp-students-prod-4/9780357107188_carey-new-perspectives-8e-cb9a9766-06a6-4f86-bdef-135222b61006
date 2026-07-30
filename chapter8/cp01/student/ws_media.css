@@ -6,18 +6,34 @@
    Case Problem 1
 
    Rhetoric in the United States Styles for Media
-   Author: 
-   Date:   
+   Author: Artasia Bates
+   Date: 07/30/2026
 
    Filename: ws_media.css
 
 */
 
 /* VideoPlayer Styles */
+video {
+   display: block;
+   width: 90%;
+   margin: 5px auto;
+}
 
-
+@media screen and (min-width: 521px) {
+   video {
+      width: 360px;
+      float: right;
+      margin: 10px;
+   }
+}
 
 
 /* Track Styles */
-
+video::cue {
+   font-family: sans-serif;
+   font-size: 1.3em;
+   color: rgb(221, 128, 160);
+   background-color: rgba(255, 255, 255, 0.8);
+}
 
