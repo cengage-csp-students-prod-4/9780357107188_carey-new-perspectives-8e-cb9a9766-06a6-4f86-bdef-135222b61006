@@ -28,7 +28,7 @@
    <h1>Payment Information</h1>
    <form action="process-card.php" method="post">
       <fieldset>
-         <select id="ccard" name="creditcard">
+         <select id="ccard" name="creditcard" required>
             <option value="Credit Card Type"></option>
             <option value="amex">American Express</option>
             <option value="disc">Discover</option>
@@ -37,7 +37,7 @@
          </select>
          
          <label for="cname">Name</label>
-         <input id="cname" name="cardname" type="text" />
+         <input id="cname" name="cardname" type="text" required>
          
          <label for="cnum">Card Number</label>
          <input type="text" name="cardnumber" id="cnum" />
