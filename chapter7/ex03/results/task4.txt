@@ -3,11 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Make the `cardnumber` field required.
 Reason: None
-Timestamp: 2026-07-30 04:01:23.810019
+Timestamp: 2026-07-30 04:34:37.179617
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add the regular expression pattern to help ensure that a valid card number is used.
-Reason: Assertion failed: False is not true : Unable to find the regular expression pattern in the `cardnumber` field.
-Error : AssertionError - False is not true : Unable to find the regular expression pattern in the `cardnumber` field.
-Timestamp: 2026-07-30 04:01:23.826499
+Reason: None
+Timestamp: 2026-07-30 04:34:37.205051
