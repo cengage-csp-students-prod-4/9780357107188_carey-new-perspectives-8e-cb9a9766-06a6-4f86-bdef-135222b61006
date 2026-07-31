@@ -12,6 +12,7 @@
 
 */
 let secsLeft = 10;
+let clockID = setInterval(countdown, 1000);
 
 function countdown() {
 
@@ -24,6 +25,10 @@ function countdown() {
    secsLeft--;
 }
 
+function stopCountdown() {
+
+   document.getElementById("Alert").textContent = "Time's Up.";
+}
 
 
 
