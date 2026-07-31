@@ -6,8 +6,8 @@
    Coding Challenge 2
 
    Countdown Clock
-   Author: 
-   Date:   
+   Author: Artasia Bates
+   Date: 07/30/2026
 
 
 */
