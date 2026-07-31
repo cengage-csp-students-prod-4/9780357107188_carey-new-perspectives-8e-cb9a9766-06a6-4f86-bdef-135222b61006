@@ -17,18 +17,13 @@ let clockID = setInterval(countdown, 1000);
 function countdown() {
 
    let secsString = addLeadingZero(secsLeft);
-
    document.getElementById("seconds").textContent = secsString;
-
    checkCountdown();
-
    secsLeft--;
 }
 
 function stopCountdown() {
-
    document.getElementById("Alert").textContent = "Time's Up.";
-
    clearInterval(clockID);
 }
 
