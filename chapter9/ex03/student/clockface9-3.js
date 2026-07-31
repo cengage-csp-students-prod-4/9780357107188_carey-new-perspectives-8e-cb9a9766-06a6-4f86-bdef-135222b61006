@@ -30,6 +30,9 @@ function moveHands() {
    rotateHand(hoursAngle, "hours");
 }
 
+moveHands();
+setInterval(moveHands, 1000);
+
 
 
 
