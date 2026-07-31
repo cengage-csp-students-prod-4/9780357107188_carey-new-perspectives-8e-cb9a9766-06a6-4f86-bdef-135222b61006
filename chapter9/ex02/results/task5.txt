@@ -1,0 +1,15 @@
+
+Status: FAILED!
+Check: 1
+Test: Create the `stopCountdown()` function.
+Reason: Assertion failed: "Time's Up." != "Time's Up"
+- Time's Up.
+?          -
++ Time's Up
+
+Error : AssertionError - "Time's Up." != "Time's Up"
+- Time's Up.
+?          -
++ Time's Up
+
+Timestamp: 2026-07-31 04:05:03.777957
