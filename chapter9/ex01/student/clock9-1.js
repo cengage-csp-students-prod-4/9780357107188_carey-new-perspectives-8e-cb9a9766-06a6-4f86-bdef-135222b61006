@@ -30,7 +30,7 @@ function runClock() {
    
    let thisWeekday = getWeekday(thisDayNum);
 
-   let thisTime = thisDay.toLocaleDateString();
+   let thisTime = thisDay.toLocaleTimeString();
 
    document.getElementById("date").textContent = thisDate;
    document.getElementById("wday").textContent = thisWeekday;
