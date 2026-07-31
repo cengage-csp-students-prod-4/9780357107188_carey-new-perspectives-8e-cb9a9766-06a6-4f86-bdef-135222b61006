@@ -24,14 +24,10 @@ setInterval(runClock, 1000);
 function runClock() {
 
    let thisDay = new Date();
-
    let thisDate = thisDay.toLocaleDateString();
-
-   let thisDayNum = thisDay.getDay();
-   
-   let thisWeekday = getWeekday(thisDayNum);
-
-   let thisTime = thisDay.toLocaleTimeString();
+let thisDayNum = thisDay.getDay();
+    let thisWeekday = getWeekday(thisDayNum);
+      let thisTime = thisDay.toLocaleTimeString();
 
    document.getElementById("date").textContent = thisDate;
    document.getElementById("wday").textContent = thisWeekday;
