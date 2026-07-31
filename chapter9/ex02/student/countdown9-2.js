@@ -11,7 +11,18 @@
 
 
 */
+let secsLeft = 10
 
+function countdown() {
+
+   let secsString = addLeadingZero(secsLeft);
+
+   document.getElementById("seconds").textContent = secsString;
+
+   checkCountdown();
+
+   secsLeft--;
+}
 
 
 
