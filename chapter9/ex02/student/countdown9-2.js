@@ -11,7 +11,7 @@
 
 
 */
-let secsLeft = 10
+let secsLeft = 10;
 
 function countdown() {
 
