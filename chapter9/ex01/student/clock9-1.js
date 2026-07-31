@@ -6,8 +6,8 @@
    Coding Challenge 1
 
    Clock
-   Author: 
-   Date:   
+   Author: Artasia Bates
+   Date: 07/30/2026
 
    function getWeekday(dayNum)
       Returns the text of the day of the week where dayNum
