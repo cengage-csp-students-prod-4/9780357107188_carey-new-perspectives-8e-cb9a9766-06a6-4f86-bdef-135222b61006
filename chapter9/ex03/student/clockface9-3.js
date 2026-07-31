@@ -6,8 +6,8 @@
    Coding Challenge 3
 
    Clock Face
-   Author: 
-   Date:   
+   Author: Artasia Bates
+   Date: 07/30/2026
 
 
 */
