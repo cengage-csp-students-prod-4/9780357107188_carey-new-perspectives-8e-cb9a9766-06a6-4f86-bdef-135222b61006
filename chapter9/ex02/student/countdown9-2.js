@@ -23,7 +23,7 @@ function countdown() {
 }
 
 function stopCountdown() {
-   document.getElementById("Alert").textContent = "Time's Up.";
+   document.getElementById("Alert").textContent = "Time's Up";
    clearInterval(clockID);
 }
 
